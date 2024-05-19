@@ -1,0 +1,156 @@
+/* src/App.css */
+
+.course-builder {
+  padding: 20px 60px;
+}
+
+.dropdown-menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width:100%
+
+}
+.dropdown-menu .course-title{
+  font-weight: bolder;
+  color: black;
+}
+/* .dropdown-menu .mtbn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+} */
+
+.dropdown-menu button {
+  border-radius: 8px;
+  padding: 10px 28px;
+  background-color: #EE4E4E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu button .fa-plus {
+  margin-right: 8px;
+}
+
+.dropdown-options {
+  margin-top: 8px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.dropdown-options button {
+  color: black;
+  display: block;
+  padding: 12px 28px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown-options button:hover {
+  background-color: #f0f0f0;
+}
+
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.module {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.module-header h2 {
+  margin: 0;
+}
+
+.popup-menu {
+  position: relative;
+}
+
+.popup-menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.popup-options button {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.popup-options button:hover {
+  background-color: #f0f0f0;
+}
+
+.resource {
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resource a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.resource button {
+  background-color: transparent;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.resource button:hover {
+  text-decoration: underline;
+}
+

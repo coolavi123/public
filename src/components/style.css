@@ -1,0 +1,37 @@
+.course-builder {
+    padding: 20px;
+  }
+  
+  .modules {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .module {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #f9f9f9;
+  }
+  
+  .module-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .module-resources {
+    margin-top: 10px;
+  }
+  
+  .resource {
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    background-color: #fff;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
